@@ -3,6 +3,7 @@ public class facebookRegistration {
         System.out.println("deneme");
         System.out.println("deneme2");
         System.out.println("deneme3");
+        System.out.println("sondeneme");
 
     }
 }
