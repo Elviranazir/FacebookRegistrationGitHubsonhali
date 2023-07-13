@@ -1,14 +1,8 @@
 package TestCases;
 
-import Utilities.BaseDriver;
-import Utilities.MyMethods;
-import org.junit.Assert;
 import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.Select;
-
-import java.util.List;
 
 public class Elvira extends BaseDriver {
     @Test
@@ -24,8 +18,12 @@ public class Elvira extends BaseDriver {
         WebElement lastName = driver.findElement(By.cssSelector("input[name='lastname']"));
         lastName.sendKeys("Snow");
 
+        MyMethods.myWait(1);
+
         WebElement eMail = driver.findElement(By.cssSelector("input[name='reg_email__']"));
         eMail.sendKeys(" ");
+
+        MyMethods.myWait(1);
 
         WebElement password = driver.findElement(By.cssSelector("input[autocomplete='new-password']"));
         password.sendKeys("Cankut1234.");

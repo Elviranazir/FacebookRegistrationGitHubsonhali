@@ -1,4 +1,4 @@
-package Utilities;
+package TestCases;
 
 public class MyMethods {
     public static void myWait(int time){
