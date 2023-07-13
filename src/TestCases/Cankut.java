@@ -16,7 +16,7 @@ public class Cankut extends BaseDriver {
             button1.click();
 
             WebElement name=driver.findElement(By.cssSelector("input[id^='u_'][name='firstname']"));
-            name.sendKeys("Cankut1");
+            name.sendKeys("Cankut");
 
             WebElement lastName=driver.findElement(By.cssSelector("input[name='lastname']"));
             lastName.sendKeys("Snow");
