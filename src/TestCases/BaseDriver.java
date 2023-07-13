@@ -14,7 +14,6 @@ public class BaseDriver {
 
     public static WebDriver driver;
 
-
     static {
 
         closePreviousDrivers();
